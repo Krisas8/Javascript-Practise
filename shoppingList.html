@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="shoppingList.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Hi, what to shop today?</h1>
+    </header>
+    <div class="addItem">
+    <label for="inputItem"></label>
+    <input type="text" id="inputItem" placeholder="item" required autocomplete="off" maxlength="18">
+    <label for="inputQuantity"></label>
+    <input type="number" inputmode="numeric" pattern="[0-9]"  id="inputQuantity" placeholder="quantity" autocomplete="off" >
+    <button id="addButtonId">&#x2b</button>
+        </div>
+
+    <div class="shoppingList">
+        <ul class="uList">
+            <!-- <li><span id="itemName">apples</span><span id="itemQTY">1</span><span id="wrapPlusMinus">   
+                <button id="plus">+</button><button id="minus">-</button></span>
+            </li>
+            <li><span id="itemName">apples</span><span id="itemQTY">1</span><span id="wrapPlusMinus">   
+                <button id="plus">+</button><button id="minus">-</button></span>
+            </li>
+            <li><span id="itemName">apples</span><span id="itemQTY">1</span><span id="wrapPlusMinus">   
+                <button id="plus">+</button><button id="minus">-</button></span>
+            </li>
+            <li><span id="itemName">apples</span><span id="itemQTY">1</span><span id="wrapPlusMinus">   
+                <button id="plus">+</button><button id="minus">-</button></span>
+            </li> -->
+        </ul>
+    </div>
+    <!--
+       <div id="confirmDiv">
+        <button id="yes">Yes</button>
+        <button id="no">No</button>
+    </div>
+    </div>
+    -->
+ 
+    
+    <script src="shoppingList.js"></script>
+</body>
+</html>
